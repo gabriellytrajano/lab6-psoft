@@ -25,6 +25,7 @@ public class Sistema {
             idadeMinima = sc.nextInt();
             dataAtual = sc.nextInt();
             ControllerPessoa controllerPessoa = new ControllerPessoa(dataAtual);
+            controllerPessoa.cadastraIdadeMinima(idadeMinima);
             System.out.println("Escolha uma opção\n" +
                     "(1) Cadastrar pessoa ao sistema\n" +
                     "(2) Cadastrar comorbidade a fila de prioridade\n" +
